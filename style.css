@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: "Lexend Deca", sans-serif;
+  background-color: hsl(233, 47%, 7%);
+}
+
+.container {
+  height: 275px;
+  width: 400px;
+  background-color: hsl(244, 38%, 16%);
+  color: white;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.container-box {
+  position: relative;
+  max-width: 400px;
+  padding: 40px 40px 20px 45px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+.container-box__title {
+  font-size: 1.6em;
+}
+
+.container-box__text {
+  margin: 20px 50px 0px 0px;
+  /* padding-top: 20px;
+  padding-right: 35px; */
+  line-height: 17px;
+  font-size: 10px;
+  color: hsla(0, 0%, 100%, 0.6);
+  opacity: 0.8;
+}
+
+.container-text {
+  display: flex;
+  justify-content: center;
+}
+
+.container-image {
+  width: 350px;
+  height: 275px;
+}
+
+img {
+  width: 350px;
+  height: 275px;
+  filter: brightness(1.3);
+  filter: saturate(50%);
+  opacity: 0.5;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.container-text__text {
+  padding-top: 10px;
+  padding-right: 20px;
+  margin-right: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container-text__text--center {
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+.container-paragraph {
+  display: flex;
+  justify-content: center;
+}
+
+.container-paragraph__text {
+  padding-top: 5px;
+  padding-right: 1px;
+  margin: 0px 45px 0px 0px;
+  font-size: 0.6em;
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  opacity: 0.8;
+}
+
+.container-paragraph__text--left {
+  margin-left: 12px;
+}
+
+.container-paragraph__text--right {
+  position: relative;
+  right: 5px;
+}
+.container-paragraph__text--right2 {
+  position: relative;
+  right: 10px;
+}
+
+.attribution {
+  position: absolute;
+  bottom: 300px;
+  color: white;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+  opacity: 0.9;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.container-image__span {
+  display: block;
+  width: 350px;
+  height: 275px;
+  background-color: hsl(280, 91%, 45%);
+}
